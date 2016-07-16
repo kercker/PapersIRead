@@ -34,11 +34,11 @@ Authorship classification and gender classification based on Facebook statuses.
   Features
   
     Word Based
-      *HAS_WORD_ + word: stem
-      *HAS_MULTIPLE_REPEATED_LETTERS: happyyyyyy
-      *specific features: common word or text strings. omg, lol, love, haha, xo
-      *links: bit.ly, youtube.com
-      *these features guess Female for everything.
+      * HAS_WORD_ + word: stem
+      * HAS_MULTIPLE_REPEATED_LETTERS: happyyyyyy
+      * specific features: common word or text strings. omg, lol, love, haha, xo
+      * links: bit.ly, youtube.com
+      * these features guess Female for everything.
       
     Structure Based
       *punctuation
@@ -72,3 +72,7 @@ Authorship classification and gender classification based on Facebook statuses.
   increased performance by artificially boosting weights of important words.
 ##Bigram Status Generator
   interesting.
+##My Getaway
+  * train with two classes with equal amount
+  * find way to evalute feature importance
+  * error analysis
